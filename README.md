@@ -1,5 +1,5 @@
 ## Zania - Frontend Application
-Zania is a modern frontend application built using React. It features drag-and-drop functionality, image overlays, shimmer loading effects, and automatic data saving, all managed through a React context for improved modularity and reusability. The app utilizes setInterval to automatically update the last saved time and periodically save data to a database, ensuring smooth user interactions.
+[Zania](https://zania-rb.vercel.app/) is a modern frontend application built using React. It features drag-and-drop functionality, image overlays, shimmer loading effects, and automatic data saving, all managed through a React context for improved modularity and reusability. The app utilizes setInterval to automatically update the last saved time and periodically save data to a database, ensuring smooth user interactions.
 
 ### Key Features
 1. Drag and Drop

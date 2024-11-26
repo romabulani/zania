@@ -32,6 +32,7 @@ const Cards: React.FC = () => {
 
   return (
     <div className="grid">
+      {data.length === 0 && <p> Loading Cards ....</p>}
       {data.map((doc, index) => (
         <div
           key={doc.type}
