@@ -19,7 +19,7 @@ const initializeWorker = async () => {
     const { worker } = await import("./mocks/handler");
     await worker.start({
       serviceWorker: {
-        url: "/mockServiceWorker.js", // Root-level path
+        url: "/mockServiceWorker.js",
       },
     });
     console.log("[MSW] Service Worker registered successfully.");
